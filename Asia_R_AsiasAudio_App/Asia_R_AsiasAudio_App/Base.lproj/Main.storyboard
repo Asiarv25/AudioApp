@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Asia_R_AsiasAudio_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d7B-jB-P7r">
+                                <rect key="frame" x="0.0" y="797" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="pause" id="Ue6-eZ-paw">
+                                        <connections>
+                                            <action selector="Rewind:" destination="BYZ-38-t0r" id="HhQ-PH-L9D"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="133" style="plain" systemItem="fixedSpace" id="Qvp-F4-8Kw"/>
+                                    <barButtonItem systemItem="play" id="fmT-Kx-xzL">
+                                        <connections>
+                                            <action selector="Play:" destination="BYZ-38-t0r" id="iHx-FY-qwO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="129" style="plain" systemItem="fixedSpace" id="28b-7n-GCy"/>
+                                    <barButtonItem systemItem="stop" id="JJa-fa-51y">
+                                        <connections>
+                                            <action selector="FastForward:" destination="BYZ-38-t0r" id="gFA-FZ-LJV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tumblr_177849e6a6246b9fb161ce667fc836f1_8079b85a_400.gif" translatesAutoresizingMaskIntoConstraints="NO" id="huJ-gr-YS6">
+                                <rect key="frame" x="20" y="168" width="374" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tumblr_177849e6a6246b9fb161ce667fc836f1_8079b85a_400.gif" width="400" height="254"/>
+    </resources>
+    <color key="tintColor" red="0.95244177860000001" green="0.68086348839999999" blue="0.97143641319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+</document>

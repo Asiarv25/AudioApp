@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7788000224EC558A00A5FB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7788000024EC558A00A5FB0D /* LaunchScreen.storyboard */; };
+		7788000D24EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788000C24EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests.swift */; };
+		7788001824EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788001724EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests.swift */; };
+		7788002824EC55AC00A5FB0D /* Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED [Part Section]Fukashigi no Carte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7788002524EC55AC00A5FB0D /* Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED [Part Section]Fukashigi no Carte.mp3 */; };
+		7788002924EC55AC00A5FB0D /* デレステ恋色エナジー (Game ver.) 中野有香 SSR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7788002624EC55AC00A5FB0D /* デレステ恋色エナジー (Game ver.) 中野有香 SSR.mp3 */; };
+		7788002A24EC55AC00A5FB0D /* デレステRomantic Now (Game ver.) 城ヶ崎莉嘉市原仁奈赤城みりあ龍崎薫大槻唯 SSR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7788002724EC55AC00A5FB0D /* デレステRomantic Now (Game ver.) 城ヶ崎莉嘉市原仁奈赤城みりあ龍崎薫大槻唯 SSR.mp3 */; };
+		7788002C24EC57B800A5FB0D /* ミカヅキBIGWAVE - Pink Sugar ピンクの砂糖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7788002B24EC57B800A5FB0D /* ミカヅキBIGWAVE - Pink Sugar ピンクの砂糖.mp3 */; };
+		7788002E24EC57C800A5FB0D /* tumblr_177849e6a6246b9fb161ce667fc836f1_8079b85a_400.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7788002D24EC57C800A5FB0D /* tumblr_177849e6a6246b9fb161ce667fc836f1_8079b85a_400.gif */; };
+		7788FFF324EC558700A5FB0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788FFF224EC558700A5FB0D /* AppDelegate.swift */; };
+		7788FFF524EC558700A5FB0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788FFF424EC558700A5FB0D /* SceneDelegate.swift */; };
+		7788FFF724EC558700A5FB0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788FFF624EC558700A5FB0D /* ViewController.swift */; };
+		7788FFFA24EC558700A5FB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7788FFF824EC558700A5FB0D /* Main.storyboard */; };
+		7788FFFD24EC558700A5FB0D /* Asia_R_AsiasAudio_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7788FFFB24EC558700A5FB0D /* Asia_R_AsiasAudio_App.xcdatamodeld */; };
+		7788FFFF24EC558A00A5FB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7788FFFE24EC558A00A5FB0D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7788000924EC558A00A5FB0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7788FFE724EC558700A5FB0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7788FFEE24EC558700A5FB0D;
+			remoteInfo = Asia_R_AsiasAudio_App;
+		};
+		7788001424EC558A00A5FB0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7788FFE724EC558700A5FB0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7788FFEE24EC558700A5FB0D;
+			remoteInfo = Asia_R_AsiasAudio_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7788000124EC558A00A5FB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7788000324EC558A00A5FB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7788000824EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Asia_R_AsiasAudio_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7788000C24EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asia_R_AsiasAudio_AppTests.swift; sourceTree = "<group>"; };
+		7788000E24EC558A00A5FB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7788001324EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Asia_R_AsiasAudio_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7788001724EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asia_R_AsiasAudio_AppUITests.swift; sourceTree = "<group>"; };
+		7788001924EC558A00A5FB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7788002524EC55AC00A5FB0D /* Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED [Part Section]Fukashigi no Carte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED [Part Section]Fukashigi no Carte.mp3"; sourceTree = "<group>"; };
+		7788002624EC55AC00A5FB0D /* デレステ恋色エナジー (Game ver.) 中野有香 SSR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "デレステ恋色エナジー (Game ver.) 中野有香 SSR.mp3"; sourceTree = "<group>"; };
+		7788002724EC55AC00A5FB0D /* デレステRomantic Now (Game ver.) 城ヶ崎莉嘉市原仁奈赤城みりあ龍崎薫大槻唯 SSR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "デレステRomantic Now (Game ver.) 城ヶ崎莉嘉市原仁奈赤城みりあ龍崎薫大槻唯 SSR.mp3"; sourceTree = "<group>"; };
+		7788002B24EC57B800A5FB0D /* ミカヅキBIGWAVE - Pink Sugar ピンクの砂糖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ミカヅキBIGWAVE - Pink Sugar ピンクの砂糖.mp3"; sourceTree = "<group>"; };
+		7788002D24EC57C800A5FB0D /* tumblr_177849e6a6246b9fb161ce667fc836f1_8079b85a_400.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tumblr_177849e6a6246b9fb161ce667fc836f1_8079b85a_400.gif; sourceTree = "<group>"; };
+		7788FFEF24EC558700A5FB0D /* Asia_R_AsiasAudio_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asia_R_AsiasAudio_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7788FFF224EC558700A5FB0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7788FFF424EC558700A5FB0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7788FFF624EC558700A5FB0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7788FFF924EC558700A5FB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7788FFFC24EC558700A5FB0D /* Asia_R_AsiasAudio_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Asia_R_AsiasAudio_App.xcdatamodel; sourceTree = "<group>"; };
+		7788FFFE24EC558A00A5FB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7788000524EC558A00A5FB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788001024EC558A00A5FB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788FFEC24EC558700A5FB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7788000B24EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7788000C24EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests.swift */,
+				7788000E24EC558A00A5FB0D /* Info.plist */,
+			);
+			path = Asia_R_AsiasAudio_AppTests;
+			sourceTree = "<group>";
+		};
+		7788001624EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7788001724EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests.swift */,
+				7788001924EC558A00A5FB0D /* Info.plist */,
+			);
+			path = Asia_R_AsiasAudio_AppUITests;
+			sourceTree = "<group>";
+		};
+		7788FFE624EC558700A5FB0D = {
+			isa = PBXGroup;
+			children = (
+				7788FFF124EC558700A5FB0D /* Asia_R_AsiasAudio_App */,
+				7788000B24EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests */,
+				7788001624EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests */,
+				7788FFF024EC558700A5FB0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7788FFF024EC558700A5FB0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7788FFEF24EC558700A5FB0D /* Asia_R_AsiasAudio_App.app */,
+				7788000824EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests.xctest */,
+				7788001324EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7788FFF124EC558700A5FB0D /* Asia_R_AsiasAudio_App */ = {
+			isa = PBXGroup;
+			children = (
+				7788FFF224EC558700A5FB0D /* AppDelegate.swift */,
+				7788FFF424EC558700A5FB0D /* SceneDelegate.swift */,
+				7788FFF624EC558700A5FB0D /* ViewController.swift */,
+				7788FFF824EC558700A5FB0D /* Main.storyboard */,
+				7788FFFE24EC558A00A5FB0D /* Assets.xcassets */,
+				7788000024EC558A00A5FB0D /* LaunchScreen.storyboard */,
+				7788000324EC558A00A5FB0D /* Info.plist */,
+				7788002D24EC57C800A5FB0D /* tumblr_177849e6a6246b9fb161ce667fc836f1_8079b85a_400.gif */,
+				7788002524EC55AC00A5FB0D /* Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED [Part Section]Fukashigi no Carte.mp3 */,
+				7788002B24EC57B800A5FB0D /* ミカヅキBIGWAVE - Pink Sugar ピンクの砂糖.mp3 */,
+				7788002724EC55AC00A5FB0D /* デレステRomantic Now (Game ver.) 城ヶ崎莉嘉市原仁奈赤城みりあ龍崎薫大槻唯 SSR.mp3 */,
+				7788002624EC55AC00A5FB0D /* デレステ恋色エナジー (Game ver.) 中野有香 SSR.mp3 */,
+				7788FFFB24EC558700A5FB0D /* Asia_R_AsiasAudio_App.xcdatamodeld */,
+			);
+			path = Asia_R_AsiasAudio_App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7788000724EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7788001F24EC558A00A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasAudio_AppTests" */;
+			buildPhases = (
+				7788000424EC558A00A5FB0D /* Sources */,
+				7788000524EC558A00A5FB0D /* Frameworks */,
+				7788000624EC558A00A5FB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7788000A24EC558A00A5FB0D /* PBXTargetDependency */,
+			);
+			name = Asia_R_AsiasAudio_AppTests;
+			productName = Asia_R_AsiasAudio_AppTests;
+			productReference = 7788000824EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7788001224EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7788002224EC558A00A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasAudio_AppUITests" */;
+			buildPhases = (
+				7788000F24EC558A00A5FB0D /* Sources */,
+				7788001024EC558A00A5FB0D /* Frameworks */,
+				7788001124EC558A00A5FB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7788001524EC558A00A5FB0D /* PBXTargetDependency */,
+			);
+			name = Asia_R_AsiasAudio_AppUITests;
+			productName = Asia_R_AsiasAudio_AppUITests;
+			productReference = 7788001324EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7788FFEE24EC558700A5FB0D /* Asia_R_AsiasAudio_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7788001C24EC558A00A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasAudio_App" */;
+			buildPhases = (
+				7788FFEB24EC558700A5FB0D /* Sources */,
+				7788FFEC24EC558700A5FB0D /* Frameworks */,
+				7788FFED24EC558700A5FB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asia_R_AsiasAudio_App;
+			productName = Asia_R_AsiasAudio_App;
+			productReference = 7788FFEF24EC558700A5FB0D /* Asia_R_AsiasAudio_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7788FFE724EC558700A5FB0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Asia Reid";
+				TargetAttributes = {
+					7788000724EC558A00A5FB0D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7788FFEE24EC558700A5FB0D;
+					};
+					7788001224EC558A00A5FB0D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7788FFEE24EC558700A5FB0D;
+					};
+					7788FFEE24EC558700A5FB0D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7788FFEA24EC558700A5FB0D /* Build configuration list for PBXProject "Asia_R_AsiasAudio_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7788FFE624EC558700A5FB0D;
+			productRefGroup = 7788FFF024EC558700A5FB0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7788FFEE24EC558700A5FB0D /* Asia_R_AsiasAudio_App */,
+				7788000724EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests */,
+				7788001224EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7788000624EC558A00A5FB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788001124EC558A00A5FB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788FFED24EC558700A5FB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788002824EC55AC00A5FB0D /* Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai ED [Part Section]Fukashigi no Carte.mp3 in Resources */,
+				7788002924EC55AC00A5FB0D /* デレステ恋色エナジー (Game ver.) 中野有香 SSR.mp3 in Resources */,
+				7788000224EC558A00A5FB0D /* LaunchScreen.storyboard in Resources */,
+				7788002C24EC57B800A5FB0D /* ミカヅキBIGWAVE - Pink Sugar ピンクの砂糖.mp3 in Resources */,
+				7788002E24EC57C800A5FB0D /* tumblr_177849e6a6246b9fb161ce667fc836f1_8079b85a_400.gif in Resources */,
+				7788FFFF24EC558A00A5FB0D /* Assets.xcassets in Resources */,
+				7788FFFA24EC558700A5FB0D /* Main.storyboard in Resources */,
+				7788002A24EC55AC00A5FB0D /* デレステRomantic Now (Game ver.) 城ヶ崎莉嘉市原仁奈赤城みりあ龍崎薫大槻唯 SSR.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7788000424EC558A00A5FB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788000D24EC558A00A5FB0D /* Asia_R_AsiasAudio_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788000F24EC558A00A5FB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788001824EC558A00A5FB0D /* Asia_R_AsiasAudio_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7788FFEB24EC558700A5FB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788FFF724EC558700A5FB0D /* ViewController.swift in Sources */,
+				7788FFF324EC558700A5FB0D /* AppDelegate.swift in Sources */,
+				7788FFF524EC558700A5FB0D /* SceneDelegate.swift in Sources */,
+				7788FFFD24EC558700A5FB0D /* Asia_R_AsiasAudio_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7788000A24EC558A00A5FB0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7788FFEE24EC558700A5FB0D /* Asia_R_AsiasAudio_App */;
+			targetProxy = 7788000924EC558A00A5FB0D /* PBXContainerItemProxy */;
+		};
+		7788001524EC558A00A5FB0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7788FFEE24EC558700A5FB0D /* Asia_R_AsiasAudio_App */;
+			targetProxy = 7788001424EC558A00A5FB0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7788000024EC558A00A5FB0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7788000124EC558A00A5FB0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7788FFF824EC558700A5FB0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7788FFF924EC558700A5FB0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7788001A24EC558A00A5FB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7788001B24EC558A00A5FB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7788001D24EC558A00A5FB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasAudio_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasAudio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7788001E24EC558A00A5FB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasAudio_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasAudio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7788002024EC558A00A5FB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasAudio_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasAudio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asia_R_AsiasAudio_App.app/Asia_R_AsiasAudio_App";
+			};
+			name = Debug;
+		};
+		7788002124EC558A00A5FB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasAudio_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasAudio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asia_R_AsiasAudio_App.app/Asia_R_AsiasAudio_App";
+			};
+			name = Release;
+		};
+		7788002324EC558A00A5FB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasAudio_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasAudio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Asia_R_AsiasAudio_App;
+			};
+			name = Debug;
+		};
+		7788002424EC558A00A5FB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F444M9U56;
+				INFOPLIST_FILE = Asia_R_AsiasAudio_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys.Asia-R-AsiasAudio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Asia_R_AsiasAudio_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7788001C24EC558A00A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasAudio_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7788001D24EC558A00A5FB0D /* Debug */,
+				7788001E24EC558A00A5FB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7788001F24EC558A00A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasAudio_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7788002024EC558A00A5FB0D /* Debug */,
+				7788002124EC558A00A5FB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7788002224EC558A00A5FB0D /* Build configuration list for PBXNativeTarget "Asia_R_AsiasAudio_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7788002324EC558A00A5FB0D /* Debug */,
+				7788002424EC558A00A5FB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7788FFEA24EC558700A5FB0D /* Build configuration list for PBXProject "Asia_R_AsiasAudio_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7788001A24EC558A00A5FB0D /* Debug */,
+				7788001B24EC558A00A5FB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7788FFFB24EC558700A5FB0D /* Asia_R_AsiasAudio_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7788FFFC24EC558700A5FB0D /* Asia_R_AsiasAudio_App.xcdatamodel */,
+			);
+			currentVersion = 7788FFFC24EC558700A5FB0D /* Asia_R_AsiasAudio_App.xcdatamodel */;
+			path = Asia_R_AsiasAudio_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7788FFE724EC558700A5FB0D /* Project object */;
+}
